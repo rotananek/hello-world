@@ -1102,3 +1102,9 @@ input.add-to-calendar-checkbox[type="checkbox"] {
     width: 180px !important;
     margin: 0 auto !important;
 }
+.anja-pop {
+    margin-top: -180px;
+}
+.kenan-pop {
+    margin-top: -250px;
+}
