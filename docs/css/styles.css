@@ -525,7 +525,7 @@ header .member-actions {
     color: #fff;
     font-size: 30px;
     position: absolute;
-    bottom: 30px;
+    bottom: 80px;
     left: 50%;
     transform: translateX(-50%)
 }
@@ -1107,4 +1107,19 @@ input.add-to-calendar-checkbox[type="checkbox"] {
 }
 .kenan-pop {
     margin-top: -250px;
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 65%;
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 650px;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
