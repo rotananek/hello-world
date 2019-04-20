@@ -1081,3 +1081,24 @@ body.modal-open {
 .modal-body {
     padding: 25px
 }
+/* Fix issue with scroll-to-top calendar click */
+input.add-to-calendar-checkbox[type="checkbox"] {
+    display: none;
+}
+/* calendar styles */
+.calendar-list {
+    border: 2px solid #e86f6f;
+    border-radius: 20px;
+    width: 220px;
+    margin: 0 auto;
+    padding: 7px 3px 3px 3px;
+    font-size: 13px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    color: #e86f6f;
+}
+.add-to-calendar-checkbox:checked ~ a {
+    width: 180px !important;
+    margin: 0 auto !important;
+}
