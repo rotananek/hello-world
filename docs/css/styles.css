@@ -900,7 +900,8 @@ header .member-actions {
 }
 
 #video-bg {
-    height: 300px
+    height: 300px;
+    background-image: url('../img/woods.jpg');
 }
 
 #video-content {
@@ -908,8 +909,8 @@ header .member-actions {
     height: 100%;
     padding-top: 100px;
     position: relative;
-    background: rgba(17, 17, 17, 0.5);
-    text-align: center
+    background: #333300aa;
+    text-align: center;
 }
 
 #video-content h5 {
@@ -1112,11 +1113,11 @@ input.add-to-calendar-checkbox[type="checkbox"] {
 }
 .google-maps {
     position: relative;
-    padding-bottom: 65%;
+    padding-bottom: 45%;
     height: 0;
     overflow: hidden;
     margin: 0 auto;
-    max-width: 650px;
+    max-width: 1000px;
 }
 .google-maps iframe {
     position: absolute;
