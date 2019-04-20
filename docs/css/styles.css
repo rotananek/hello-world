@@ -102,16 +102,18 @@ h5 {
     margin-right: 20px
 }
 
-section.intro,
+section#overview,
 section.features-extra,
+section#instagram,
 section.rsvp {
-    background: #fff
+    background: #f8f9fd
 }
 
+section#intro,
 section.features,
 section.events,
 section.blog {
-    background: #f8f9fd
+    background: #fff
 }
 
 .group:after {
