@@ -1131,3 +1131,9 @@ input.add-to-calendar-checkbox[type="checkbox"] {
     padding-right: 7px;
     margin-top: 9px;
 }
+.charity-links {
+    margin-top: -20px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
