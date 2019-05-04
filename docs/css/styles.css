@@ -1140,7 +1140,7 @@ input.add-to-calendar-checkbox[type="checkbox"] {
     margin-bottom: 25px;
 }
 table.travel-times {
-    margin: 0 auto 40px auto;
+    margin: 40px auto 40px auto;
     text-align: left;
 }
 table.travel-times td {
@@ -1148,4 +1148,4 @@ table.travel-times td {
 }
 table.travel-times td:last-child {
     padding-right: 0px;
-
+}
