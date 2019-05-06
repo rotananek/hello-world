@@ -1149,3 +1149,6 @@ table.travel-times td {
 table.travel-times td:last-child {
     padding-right: 0px;
 }
+p.more-to-come {
+    margin-top: -35px;
+}
